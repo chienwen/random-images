@@ -13,7 +13,7 @@ console.error("Genereate", count, "images in", outputDir);
 const requests = [];
 for (let i = 0; i < count; i++) {
   requests.push(axios({
-    url: 'https://picsum.photos/1024/768',
+    url: 'https://picsum.photos/1280/1024',
     method: 'GET',
     responseType: 'stream'
   }).then(response => {
